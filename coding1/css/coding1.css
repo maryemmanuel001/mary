@@ -1,0 +1,186 @@
+h1{
+color:black;
+Background-color:rgb(255,0,0)
+}
+#pen{color:blue;background-color:skyblue}
+.pencil{color:red;}
+body {
+ 
+  background-image: url("webd3_bg.jpg");
+}
+
+
+
+
+#container{
+         border:2px solid black ;
+         margin:0 auto;
+         background-color:#0F6F8F;
+         height:auto;
+         width:auto;
+    background-repeat: repeat-x;
+} 
+         }
+
+
+
+#container2{
+         border:2px solid black ;
+         margin:0 auto;
+         background-color:#0F6F8F;
+         height:2000px;
+         width:auto;
+         }
+
+
+#container3{
+         border:2px solid black ;
+         margin:0 auto;
+         background-color:#0F6F8F;
+         height:1000px;
+         width:auto;
+         }
+
+
+#container4{
+         border:2px solid black ;
+         margin:0 auto;
+         background-color:#0F6F8F;
+         height:auto;
+         width:auto;
+         }
+
+
+#container5{
+         border:2px solid black;
+         margin:0 auto;
+         background-color:#0F6F8F;
+         height:2019px;
+         width:0 auto;
+         font-size:20px;
+         }
+
+
+
+
+
+
+
+
+
+
+
+#header{
+       margin:0 auto;
+       background-color:#0F6F8F;
+       color:#F8F8FF;
+       height:300px;
+       font-size:50px;
+       font-family:arial black;
+}
+#menu{
+      margin:0 auto;
+      background-color: #F8F6FF;
+      color:#0000FF;
+      height:50px;
+      font-size:30px;
+
+}
+
+#banner{
+         margin:0 auto;
+         color:black;
+         height:300px;
+         font-family: times-new roman;
+
+
+}
+#content{
+         margin:0 auto;
+         color:black;
+         height:300px;
+         font-family: times-new roman;
+}
+#book{
+        margin:0 auto;
+        background-color:skyblue;
+       color:black;
+}
+#j{
+         margin:0 auto;
+         background-color:red;
+         color:black;
+         height:20px;
+         width:200px;
+
+}
+#y{
+         margin:0 auto;
+         background-color:red;
+         color:black;
+         height:300px;
+   
+}
+#f{
+        margin:0 auto;
+        background-color:skyblue;
+        color:black;
+
+
+
+
+
+}
+#x{
+         margin:0 auto;
+         background-color:#0F6F8F;
+         color:black;
+         height:200px;
+    
+
+
+}
+.pencil{
+        margin:0 auto;
+        background-color:skyblue;
+        color:black;
+}
+
+div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: 200px;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 150px;
+    margin: 5px;
+    height:2px;
+}
+</style>
+</head>
+<body>
+
+
+#footer{
+       margin:0 auto;
+       background-color:skyblue;
+       height:20px;
+       width:1000px;
+}

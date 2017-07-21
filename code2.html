@@ -1,0 +1,133 @@
+<html>
+<head>
+<title>my form</title>
+
+<script type="text/javascript">
+function mary()
+{
+if(document.getElementById("e1").value=="")
+alert("enter your full name");
+else
+if(document.getElementById("g3").value=="")
+alert("please kindly enter your email address");
+else
+if(document.getElementById("g4").value=="")
+alert("please kindly enter your password");
+else
+if(document.getElementById("g6").value=="")
+alert("please enter your phone number");
+else
+alert(" Thanks,you are done");
+}
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="mystyle.css">r
+<style>
+
+
+
+
+</style>
+</head>
+<body>
+<h1>Congrats mary! you are now a web designer</h1>
+<h2 style="color:yellow;margin-left:30px;">computer science is actually fun,</h2>
+<p style="color:indigo;margin-left:50px;"><b>Coding is really interesting you know!</b> </p>
+<form action="maryslimited.html" method="POST">
+
+<div id="style">
+<p> <b>Full STock Web Development:</b>
+<ul>
+   <li>HTML,CSS,Javascript </li>
+   <li>Front-End Web UI Frameworks & Tools </li>
+   <li>Front-End Javascript Framworks:AndularJS</li>
+   <li>Multiplatform Mobile App Development with Web Technologies</li>
+   <li>Server-side Development with NodeJS</li> 
+</div>
+
+<div class="work">
+<p><br> There is no participation fee.<br/>however, interested candidates will be required to uderdertake an aptitude test and will need to provide verifiable evidence of financial need.</p>
+<p>powered by <b>Google</b> </p>
+<p> Visithttp:/ /www.visiolafoundation.org/category/events/
+<br>
+for more informationabout program dates and venues.
+</div>
+
+<fieldset>
+<legend> PERSONAL INFORMATION</legend>
+
+Full Name: <input Type="text" id="e1" name="fname"><br>
+
+Religion:  <input Type="text" id="e2" name="Rel"><br>
+
+Sex: <input type="radio" name=sex" value="male">male
+<input type="radio" name=sex" value=female">female
+<p>Marital Status: <input Type="text" name=marital"><br><p>
+Subject:<input type="checkbox" name="subject" value="MTH">Mathematics
+<br>
+<input type="checkbox" id="f0" name="subject" value="English">English
+<br>
+<input type="checkbox" id="f1" name="subject" value="Chemistry">Chemistry
+<br>
+<input type="checkbox" id="f2" name="subject" value="Biology">Biology
+<br>
+<input type="checkbox" id="f3" name="subject" value="Physics">Physics
+<br>
+<input type="checkbox" id="f4" name="subject" value="Economics">Economics
+<br>
+ADD COMMENT:
+<br><textarea name="bio" rows="5" cols="30" id="y2"> Please type in your comment here!!! </textarea>
+<br>
+CHOOSE YOUR COUNTRY<Select name<"country">
+<option value="Nig">NIGERIA</option>
+<option value="ARM">AMERICA</option>
+<option value="GRM">GERMANY</option>
+<option value="CHI">CHINA</option>
+<option value="SA">SOUTH AFRICA</option>
+<option value="UK">UNITED STATE</option>
+<option value="CY">CYPRUS</option>
+<option value="IT">ITALIA</option>
+</select>
+<br>
+
+CHOOSE YOUR FAVOURITE COLOR:<input type="color" id="g1" name="color">
+<br>
+ENTER YOUR DATE OF BIRTH<input type="date" id="g2" name="date">
+<br>
+ENTER YOUR EMAIL<input type="email" id="g3" name="email">
+<br>
+ENTER YOUR PASSWORD<input type="password" id="g4" name="password">
+<br>
+CONFIRM YOUR PASSWORD<input type="confirmpass" id="g5" name="confirmpass">
+<br>
+ENTER YOUR PHONE NUMBER<input type="number" id="g6" name="number">
+
+<p>
+<br>
+<input type="button" value="Submit" onclick="mary()" />
+<input type="reset" name="reset"
+ value="Reset" />
+</p>
+
+
+</fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</form>
+</body>
+</html>
